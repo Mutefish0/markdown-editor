@@ -26,10 +26,6 @@ class MarkdownEditor extends React.Component{
         this.previewScrollTo = this.escapedFromPreview.scrollTo 
 
     }
-
-    scrollPreview() {
-
-    }
     
     render() {
         return (
