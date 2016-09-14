@@ -1,6 +1,9 @@
 # markdown-editor
 用React写的基于[markdown-it](https://github.com/markdown-it/markdown-it)的一款编辑器
 
+# Demo
+[demo](http://hey-riddleoo.site/markdown-editor.html)
+
 # 安装
 `npm install`
 
