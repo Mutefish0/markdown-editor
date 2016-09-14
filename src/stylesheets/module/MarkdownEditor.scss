@@ -1,0 +1,22 @@
+.markdown-editor{
+    text-align: center;
+    textarea{
+        max-height: 500px;
+        
+        border: none;
+        outline: none;
+        border: 1px solid #444444;
+        margin-right: 8px;
+        padding: 12px;
+    }
+    .preview{
+        text-align: left;
+        border: 1px solid orange;
+        height: 500px;
+        width: 400px;
+        display: inline-block;
+        vertical-align: top;
+        overflow: scroll;
+        padding: 12px;
+    }
+}

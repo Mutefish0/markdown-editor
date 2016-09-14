@@ -1,0 +1,15 @@
+.preview{
+    padding: 0 40px 0 40px;
+    word-wrap:break-word; 
+    word-break:break-all; 
+    height: 100%;
+    width: 400px;
+    position: absolute;
+    top:0;
+    left:400px;
+    overflow: scroll;
+    background: skyblue; 
+    img{
+        width: 100%;
+    }
+}

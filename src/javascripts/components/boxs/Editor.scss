@@ -1,0 +1,70 @@
+/* 可以自定义 */
+$width:400px;                           //编辑器宽度
+$height:100%;                           //编辑器高度
+$pannel-background:#444444;             //编辑器面板背景
+$text-background:#444444;               //编辑器文本区背景
+$text-color:white;                      //文本颜色
+$line-height:22px;                      //文本行高
+$font-size: 16px;
+
+/*
+.element-editor{
+    width: $width;
+    height: $height;
+    background: $pannel-background;
+    overflow: scroll;
+    cursor: text;
+    box-sizing:border-box;
+    padding:40px 40px 20px 40px;
+    .text-area{
+        color:$text-color;
+        line-height: $line-height;
+        font-size: $font-size;
+        outline: none;
+        word-break:break-all;
+        min-height: 100%;
+    }   
+}
+*/
+
+.element-editor{
+    width: $width;
+    height: $height;
+    background: $pannel-background;
+    overflow: scroll;
+    cursor: text;
+    box-sizing:border-box;
+    padding:40px 40px 20px 40px;
+    .text-area{
+        color:$text-color;
+        line-height: $line-height;
+        font-size: $font-size;
+        outline: none;
+        word-break:break-all;
+        min-height: 100%;
+        background: transparent;
+        word-wrap: break-word;
+        -webkit-writing-mode: horizontal-tb;
+        -moz-writing-mode: horizontal-tb;
+        writing-mode: horizontal-tb;
+        white-space: pre-wrap;
+        -moz-white-space: pre-wrap;
+        -webkit-white-space: pre-wrap;
+        -webkit-user-modify:read-write-plaintext-only;
+        -moz-user-modify:read-write-plaintext-only;
+        user-modify:read-write-plaintext-only;
+    }
+    .text-area-shadow{
+        line-height: $line-height;
+        font-size: $font-size;
+        white-space: pre-wrap;
+        -moz-white-space: pre-wrap;
+        -webkit-white-space: pre-wrap;
+        word-break:break-all;
+        opacity:0;
+        position: fixed;
+        bottom:-100px;
+        right:-100px;
+        z-index:-100;
+    }   
+}
