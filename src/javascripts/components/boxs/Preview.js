@@ -4,10 +4,6 @@ import './Preview.scss'
 
 import $ from 'jquery'
 
-import mdic from 'markdown-it-container'
-
-import inline_smile from '../../markdown-extention/inline_smile'
-
 let md = MarkdownIt()
 
 class Preview extends React.Component {
