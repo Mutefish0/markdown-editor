@@ -2,7 +2,7 @@
 用React写的基于[markdown-it](https://github.com/markdown-it/markdown-it)的一款编辑器
 
 # Demo
-[demo](http://hey-riddleoo.site/markdown-editor.html)
+[demo](http://demo.yiifan.xyz/markdown-editor)
 
 # 安装
 `npm install`
